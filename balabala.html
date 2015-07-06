@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>balabala-test</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" type="text/css" href="balabala.css" />
+    <script type="text/javascript" src="zepto.min.js"></script>
+    <script type="text/javascript" src="balabala.js"></script>
+    <style type="text/css">
+    .my-date {
+	    display: inline-block;
+	    height: 20px;
+	    width: 100px;
+	    text-align: center;
+	    margin-top: 30px;
+	    border-radius: 15px;
+	    border: 1px solid #888;
+	}
+	</style>
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <span class="balabala-select my-date" balabala-attr="begin-date"></span>
+        <span>至</span>
+        <span class="balabala-select my-date" balabala-attr="end-date"></span>
+    </div>
+    <script type="text/javascript">
+        //...
+        var datePicker = {
+            theme: '',
+            //dayGap: '',
+            beginDay: '',
+            endDay: '',
+            callback: function test() {
+                // alert(o);
+            }
+        };
+        $('.balabala-select').balabala(datePicker);
+    </script>
+</body>
+
+</html>
