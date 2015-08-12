@@ -19,7 +19,7 @@ balabals是一款基于zepto的移动端滑动日历插件，秉着简单够用�
 ```
 注：其中balabala-select和balabala-attr为必填属性<br>
 
-3、接收参数：
+3、接收参数：<br>
 theme:主题，具体颜色值，类型string, 如#fff（若为空，则默认为#31b6e7）<br>
 beginDay:开始日期（若为空，则默认起始日期为八天之前）<br>
 endDay:结束日期（若为空，则默认结束日期为昨天）<br>
