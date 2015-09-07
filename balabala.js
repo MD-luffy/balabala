@@ -17,7 +17,7 @@
             env: 0 //日历所处环境, 0：begin-date; 1: end-date
         };
 
-        function pickerSize() {
+        function pickerSize() { 
             //日历距左边为15%
             var w = $(window).width() * 0.15;
             //日历距顶为25%
