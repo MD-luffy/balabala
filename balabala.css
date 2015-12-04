@@ -40,6 +40,7 @@
 
 .date-s li {
     /*display: block;*/
+    
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
@@ -49,7 +50,7 @@
     height: 100%;
     display: inline-block;
     position: absolute;
-    background: -webkit-gradient(linear, left bottom, left top, from(#F0F0F0), color-stop(0.52, rgba(255, 255, 255, 0)), color-stop(0.48, rgba(255, 255, 255, 0)), to(#F0F0F0));
+    background: -webkit-gradient(linear, 0% 100%, 0% 0%, from(rgb(50, 49, 49)), color-stop(0.40, rgba(255, 255, 255, 0)), color-stop(0.60, rgba(255, 255, 255, 0)), to(rgba(50, 49, 49, 1)));
 }
 
 .date-s-y {}
