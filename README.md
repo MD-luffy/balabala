@@ -1,4 +1,4 @@
-balabala V1.0使用介绍
+balabala V1.1使用介绍
 ==
 #一、介绍
 balabala是一款基于`zepto`的移动端滑动日历插件，秉着简单够用的原则，比较小巧，压缩后只有7K。
@@ -29,3 +29,10 @@ balabala是一款基于`zepto`的移动端滑动日历插件，秉着简单够�
 ```javascript
 $('.balabala-select').balabala(datePicker);
 ```
+
+5、销毁日历函数：
+```javascript
+$('.balabala-select').destroyCalendar();
+```
+
+注：同一个页面要想使用多个日历，必须在初始化一个新的日历之前调用destroyCalendar()来销毁当前的日历<br>
